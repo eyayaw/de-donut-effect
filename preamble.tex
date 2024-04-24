@@ -1,0 +1,42 @@
+
+\usepackage{lscape,rotating}
+\usepackage{dcolumn} %stargazer?
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% % reduce space between image and its caption
+\usepackage{caption}
+\captionsetup[table]{skip=0pt}
+
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+
+% These are Paul Goldsmith-Pinkham colors
+\definecolor{myblue}{RGB}{0,114,178}
+\definecolor{myred}{RGB}{213,94,0}
+\definecolor{myyellow}{RGB}{240,228,66}
+\definecolor{mygreen}{RGB}{0,158,115}
+
+% https://tex.stackexchange.com/a/30726
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
