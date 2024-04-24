@@ -1,0 +1,61 @@
+
+\begin{table}[htbp]
+   \caption{no title}
+   \centering
+   \begin{tabular}{lccccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{7}{c}{val}\\
+       & \multicolumn{7}{c}{LNHRI} \\ 
+      Model:                                     & (1)                     & (2)                     & (3)                     & (4)                     & (5)            & (6)             & (7)\\  
+      \midrule
+      \emph{Variables}\\
+      food\_index                                & 0.0223$^{***}$          &                         &                         &                         &                &                 &   \\   
+                                                 & (0.0006)                &                         &                         &                         &                &                 &   \\   
+      lnpp                                       & 0.0623$^{***}$          & 0.0676$^{***}$          & 0.0684$^{***}$          & 0.0632$^{***}$          & 0.0729$^{***}$ & 0.0807$^{***}$  & 0.0727$^{***}$\\   
+                                                 & (0.0011)                & (0.0011)                & (0.0011)                & (0.0011)                & (0.0017)       & (0.0020)        & (0.0017)\\   
+      share\_male\_1845                          & 0.0099$^{***}$          & 0.0120$^{***}$          & 0.0115$^{***}$          & 0.0103$^{***}$          & 0.0116$^{***}$ & 0.0129$^{***}$  & 0.0115$^{***}$\\   
+                                                 & (0.0004)                & (0.0004)                & (0.0004)                & (0.0004)                & (0.0006)       & (0.0007)        & (0.0006)\\   
+      share\_background\_german                  & 0.0003$^{***}$          & 0.0003$^{***}$          & 0.0002$^{*}$            & 0.0002$^{***}$          & 0.0007$^{***}$ & 0.0017$^{***}$  & 0.0006$^{***}$\\   
+                                                 & ($8.53\times 10^{-5}$)  & ($8.67\times 10^{-5}$)  & ($8.75\times 10^{-5}$)  & ($8.61\times 10^{-5}$)  & (0.0001)       & (0.0002)        & (0.0001)\\   
+      food\_index $\times$ pandemic1             & -0.0009                 &                         &                         &                         &                &                 &   \\   
+                                                 & (0.0008)                &                         &                         &                         &                &                 &   \\   
+      education\_index                           &                         & 0.0142$^{***}$          &                         &                         &                &                 &   \\   
+                                                 &                         & (0.0006)                &                         &                         &                &                 &   \\   
+      education\_index $\times$ pandemic1        &                         & -0.0027$^{***}$         &                         &                         &                &                 &   \\   
+                                                 &                         & (0.0008)                &                         &                         &                &                 &   \\   
+      entertainment\_index                       &                         &                         & 0.0084$^{***}$          &                         &                &                 &   \\   
+                                                 &                         &                         & (0.0006)                &                         &                &                 &   \\   
+      entertainment\_index $\times$ pandemic1    &                         &                         & -0.0002                 &                         &                &                 &   \\   
+                                                 &                         &                         & (0.0007)                &                         &                &                 &   \\   
+      urbam\_index                               &                         &                         &                         & 0.0222$^{***}$          &                &                 &   \\   
+                                                 &                         &                         &                         & (0.0007)                &                &                 &   \\   
+      urbam\_index $\times$ pandemic1            &                         &                         &                         & -0.0019$^{**}$          &                &                 &   \\   
+                                                 &                         &                         &                         & (0.0009)                &                &                 &   \\   
+      environ\_area\_index                       &                         &                         &                         &                         & 0.0077$^{***}$ &                 &   \\   
+                                                 &                         &                         &                         &                         & (0.0020)       &                 &   \\   
+      environ\_area\_index $\times$ pandemic1    &                         &                         &                         &                         & 0.0019         &                 &   \\   
+                                                 &                         &                         &                         &                         & (0.0029)       &                 &   \\   
+      water\_area\_index                         &                         &                         &                         &                         &                & 0.0167$^{***}$  &   \\   
+                                                 &                         &                         &                         &                         &                & (0.0017)        &   \\   
+      water\_area\_index $\times$ pandemic1      &                         &                         &                         &                         &                & -0.0101$^{***}$ &   \\   
+                                                 &                         &                         &                         &                         &                & (0.0021)        &   \\   
+      green\_area\_index                         &                         &                         &                         &                         &                &                 & 0.0014\\   
+                                                 &                         &                         &                         &                         &                &                 & (0.0019)\\   
+      green\_area\_index $\times$ pandemic1      &                         &                         &                         &                         &                &                 & 0.0058$^{**}$\\   
+                                                 &                         &                         &                         &                         &                &                 & (0.0027)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      amr\_name                                  & Yes                     & Yes                     & Yes                     & Yes                     & Yes            & Yes             & Yes\\  
+      year\_mon                                  & Yes                     & Yes                     & Yes                     & Yes                     & Yes            & Yes             & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                               & 62,483                  & 62,483                  & 62,483                  & 62,483                  & 29,340         & 19,932          & 29,340\\  
+      R$^2$                                      & 0.80178                 & 0.79803                 & 0.79731                 & 0.79996                 & 0.81834        & 0.82652         & 0.81818\\  
+      Within R$^2$                               & 0.27125                 & 0.25746                 & 0.25482                 & 0.26454                 & 0.22600        & 0.22729         & 0.22529\\  
+      \midrule \midrule
+      \multicolumn{8}{l}{\emph{Heteroskedasticity-robust standard-errors in parentheses}}\\
+      \multicolumn{8}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+\end{table}
+
+
