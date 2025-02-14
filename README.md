@@ -12,7 +12,7 @@ The COVID-19 pandemic has disrupted established urban patterns. The literature o
 
 > Beze, Eyayaw and Thiel, Patrick, The Impact of COVID-19 on Real Estate Markets in Germany. Published in German Economic Review 2025(2) ([Link](https://www.degruyter.com/document/doi/10.1515/ger-2024-0049/html)).
 
-> The working paper version can be found in this repo [Beze_Thiel_2023_The_impact_of_COVID-19_on_real_estate_markets_in_Germany.pdf](Beze_Thiel_2023_The_impact_of_COVID-19_on_real_estate_markets_in_Germany.pdf). View it [here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/eyayaw/donut-effect-de/main/Beze_Thiel_2023_The_impact_of_COVID-19_on_real_estate_markets_in_Germany.pdf) or available at SSRN: https://ssrn.com/abstract=4700238 or http://dx.doi.org/10.2139/ssrn.4700238
+> The working paper version can be found in this repo [Beze_Thiel_2023_The_impact_of_COVID-19_on_real_estate_markets_in_Germany.pdf](Beze_Thiel_2023_The_impact_of_COVID-19_on_real_estate_markets_in_Germany.pdf), view it [here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/eyayaw/donut-effect-de/main/Beze_Thiel_2023_The_impact_of_COVID-19_on_real_estate_markets_in_Germany.pdf). Also available at [SSRN](https://ssrn.com/abstract=4700238).
 
 Please cite the paper for attribution.
 
